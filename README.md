@@ -6,7 +6,7 @@ Lending companies work by analyzing financial history of their loan applicants, 
 # Goal 
 Develop an model to predict for 'quality' applicants. In this case, 'quality' applicants are those who reach a key part of the loan application process.
 
-# Data: 
+# Data
 The data includes personal information like age,and time employed as well as other financial metrics. Both the sets of scores as well as small list of personal/financial features to predict if the user will repond to our current onboarding process.
 
 
