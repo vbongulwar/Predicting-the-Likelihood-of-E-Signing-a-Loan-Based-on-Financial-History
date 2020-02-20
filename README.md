@@ -7,7 +7,7 @@ Goal : Develop an model to predict for 'quality' applicants. In this case, 'qual
 
 Data : The data includes personal information like age,and time employed as well as other financial metrics. Both the sets of scores as well as small list of personal/financial features to predict if the user will repond to our current onboarding process.
 
-Model : It makes sense to use logistics regression here as we’re trying to predict a binary outcome. Also try SVM (Linear) , SVM (RBF) and Random Forest. Observing the results from these models, we use grid search (GridSearchCV) with different parameter/value combinations to tune our model for even better results.
+Model : It makes sense to use logistics regression here as we’re trying to predict a binary outcome. Also SVM (Linear) , SVM (RBF) and Random Forest model were implemented. Observing the results from these models, we use grid search (GridSearchCV) with different parameter/value combinations to tune our model for even better results.
 
 The optimized model (Random Forest (n=100, GSx2 + Gini)) has an accuracy of 0.6413.
 
